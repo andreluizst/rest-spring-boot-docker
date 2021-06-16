@@ -1,2 +1,2 @@
-br\com\restsb\adapter\DozerAdapterTest.class
-br\com\restsb\adapter\mocks\MockPerson.class
+br/com/restsb/adapter/mocks/MockPerson.class
+br/com/restsb/adapter/DozerAdapterTest.class

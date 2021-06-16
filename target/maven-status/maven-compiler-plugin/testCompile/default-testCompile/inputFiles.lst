@@ -1,2 +1,2 @@
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\test\java\br\com\restsb\adapter\mocks\MockPerson.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\test\java\br\com\restsb\adapter\DozerAdapterTest.java
+/app/src/test/java/br/com/restsb/adapter/DozerAdapterTest.java
+/app/src/test/java/br/com/restsb/adapter/mocks/MockPerson.java

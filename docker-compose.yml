@@ -1,0 +1,59 @@
+version: "3.4"
+networks:
+  net:
+    driver: bridge    
+services:
+  t1:
+    image: alpine
+    container_name: containert1
+    networks:
+      - net
+    command: sleep 1000
+  t2:
+    image: alpine
+    container_name: containert2
+    networks:
+      - net
+    command: sleep 1000
+  db:
+    image: mysql:8.0.25 
+    #container_name: restSpringBootDB
+    ports:
+      - 3308:3306
+    networks:
+      - net
+    command: mysqld --default-authentication-plugin=mysql_native_password
+    environment:
+      TZ: America/Recife
+      MYSQL_ROOT_PASSWORD: docker
+      MYSQL_USER: docker
+      MYSQL_PASSWORD: docker
+      MYSQL_DATABASE: springboot
+    restart: always
+    depends_on:
+      - t1
+      - t2
+  rest-api:
+    #image: rest-spring-boot-docker:0.0.1-SNAPSHOT
+    image: maven:3.8.1-jdk-11-slim
+    #container_name: restSpringBootApi
+    ports:
+      - 8087:8080
+    volumes:
+      - ./:/app
+      - ../../documentos/uploads:/root/documentos/uploads
+      - ../../documentos/.m2:/usr/share/maven/.m2
+    #  - ~/.m2:/root/.m2
+    working_dir: /app
+    environment:
+      TZ: America/Recife
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3308/springboot?autoReconnect=true&useTimezone=true&serverTimezone=America/Recife&useSSL=false
+      SPRING_BOOT_ENVIRONMENT: Production
+    command: mvn clean package spring-boot:run
+    links:
+      - db
+    depends_on:
+      - db
+    networks:
+      - net
+    #restart: always

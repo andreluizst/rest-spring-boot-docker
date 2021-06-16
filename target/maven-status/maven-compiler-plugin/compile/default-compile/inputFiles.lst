@@ -1,16 +1,34 @@
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\controller\general\MainController.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\data\model\Greeting.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\exception\handler\CustomizedResponseEntityExceptionHandler.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\serialization\converter\YamlJackson2HttpMessageConverter.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\adapter\DozerAdapter.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\data\model\Person.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\repository\PersonRepository.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\exception\ExceptionResponse.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\controller\person\PersonController.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\exception\UnsuportedMathOperationException.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\config\WebConfig.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\exception\ResourceNotFoundException.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\config\SwaggerConfig.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\data\dto\PersonDTO.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\Startup.java
-D:\DEV\RestSpringBoot01\02 Scaffold Eclipse Calculadora\src\main\java\br\com\restsb\services\PersonServices.java
+/app/src/main/java/br/com/restsb/services/PersonServices.java
+/app/src/main/java/br/com/restsb/exception/InvalidJwtAutheticationException.java
+/app/src/main/java/br/com/restsb/services/UserServices.java
+/app/src/main/java/br/com/restsb/data/model/Permission.java
+/app/src/main/java/br/com/restsb/data/model/User.java
+/app/src/main/java/br/com/restsb/adapter/DozerAdapter.java
+/app/src/main/java/br/com/restsb/controller/FileController.java
+/app/src/main/java/br/com/restsb/controller/general/MainController.java
+/app/src/main/java/br/com/restsb/exception/ResourceNotFoundException.java
+/app/src/main/java/br/com/restsb/security/jwt/JwtTokenProvider.java
+/app/src/main/java/br/com/restsb/data/dto/PersonDTO.java
+/app/src/main/java/br/com/restsb/repository/PersonRepository.java
+/app/src/main/java/br/com/restsb/exception/UnsuportedMathOperationException.java
+/app/src/main/java/br/com/restsb/serialization/converter/YamlJackson2HttpMessageConverter.java
+/app/src/main/java/br/com/restsb/services/FileStorageService.java
+/app/src/main/java/br/com/restsb/config/WebConfig.java
+/app/src/main/java/br/com/restsb/controller/auth/AuthController.java
+/app/src/main/java/br/com/restsb/config/SecurityConfig.java
+/app/src/main/java/br/com/restsb/exception/FileStorageException.java
+/app/src/main/java/br/com/restsb/repository/UserRepository.java
+/app/src/test/java/br/com/restsb/adapter/DozerAdapterTest.java
+/app/src/main/java/br/com/restsb/data/model/Greeting.java
+/app/src/main/java/br/com/restsb/data/model/Person.java
+/app/src/main/java/br/com/restsb/config/SwaggerConfig.java
+/app/src/test/java/br/com/restsb/adapter/mocks/MockPerson.java
+/app/src/main/java/br/com/restsb/data/dto/UploadFileDTO.java
+/app/src/main/java/br/com/restsb/exception/handler/CustomizedResponseEntityExceptionHandler.java
+/app/src/main/java/br/com/restsb/Startup.java
+/app/src/main/java/br/com/restsb/security/jwt/JwtConfigurer.java
+/app/src/main/java/br/com/restsb/exception/ExceptionResponse.java
+/app/src/main/java/br/com/restsb/security/dto/AccountCredentialsDTO.java
+/app/src/main/java/br/com/restsb/config/FileStorageConfig.java
+/app/src/main/java/br/com/restsb/controller/person/PersonController.java
+/app/src/main/java/br/com/restsb/security/jwt/JwtTokenFilter.java
